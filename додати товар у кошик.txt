@@ -1,0 +1,7 @@
+Given the user is logged in to internet shop allegro.pl
+And the user selected a 'product' 
+Аnd went to the 'product; page
+When the user Add product to cart
+Then the 'go to cart' window appears
+When click the 'to cart' button
+Then 'product' prezent in the 'cart'

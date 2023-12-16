@@ -1,0 +1,12 @@
+Given the user is logged in to internet shop allegro.pl
+And the user found the product and added in to the 'favorites'
+And user goes to the 'favorite' page
+
+When the user clicks the 'add to cart' button
+Then the 'go to cart' window appears
+When the user goes to the 'cart' 
+Then the user is on 'your cart' window 
+When the user clicks the 'delivery and payment' button
+Then the 'result' window appears
+When the user selects a payment method and совершил оплату
+Then the "purchase completed" window with information on the delivery of the goods appear

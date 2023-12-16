@@ -1,0 +1,7 @@
+Given user is logged in to Google
+When user clicks the button to write a new letter
+Then opens the window "new message"
+And head panel: minimize; full screen; save and close
+And we have a field for entering the recipient's e-mail and a field for writing a messenge and a field "Subject"
+And has buttons : "copy","hidden copy"
+And leg panel: "send","other sending options","formatting options","attach a file","insert link","insert smailes","insert a link to the files from the Google disk","insert photo","turn privacy mode onor off","sign up","more options","reject the draft"

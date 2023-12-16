@@ -1,0 +1,8 @@
+Given the user is logged in to internet shop allegro.pl
+And the user found the product and added it to the 'cart'
+And user on the "your cart" page
+
+When click the "delivery and payment" button
+Then the 'result' (of the order) window appears
+When the user selects a payment method
+Then the "purchase completed" window with information on the delivery of the goods appear

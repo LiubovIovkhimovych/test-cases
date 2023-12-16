@@ -1,0 +1,7 @@
+Given the user is logged in to internet shop allegro.pl
+And the user selected a 'product' 
+Аnd went to the 'product; page
+And quantity of 'product' at seller 'N'
+When user enters quantity of 'product' 'N+1'
+Then message 'Enter at least 1, max. N' appeared
+And the digit 'N+1' is not entered

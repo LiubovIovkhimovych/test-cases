@@ -1,0 +1,9 @@
+Given user is logged in to Google
+And we have a total of Y messenge in the violin
+And we have a star N messenge in the violin,but Y>N
+When user clicks sort with star
+Then on the page N messenge
+And pegination has the following:
+    first number-1
+	laast number-N
+	total number-N

@@ -1,0 +1,10 @@
+Given user is logged in to Google
+And we have a total of Y messenge in the violin
+And we have important K messenge in the violin,but Y>K
+When user clicks the button "more"
+And user clicks button "important"
+Then on the page K messenge
+And pegination has the following:
+    first number-1
+	laast number-K
+	total number-K

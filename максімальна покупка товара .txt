@@ -1,0 +1,10 @@
+Given the user is logged in to internet shop allegro.pl
+And the user found any product and added it to the 'cart'
+And max quantity "product" available is Y 
+And the price per unit of "product" is X
+
+
+When user on the "your cart" page
+And the user enters a product quantity  N>Y
+Then the quantity of the product changes to N, the '+' button is inactive
+And the amount to be paid becomes Y*X
